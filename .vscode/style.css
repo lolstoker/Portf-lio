@@ -1,5 +1,6 @@
+/* Plano de Fundo */
 body {
-  background-image: url("https://i.stack.imgur.com/kx8MT.gif");
+  background-image: url("https://media.giphy.com/media/aorAs0VoAlCmY/giphy.gif");
   background-size: cover;
 
   height: 100vh;
@@ -16,7 +17,6 @@ body * {
 #container {
   width: 360px;
   height: 712px;
-  border: 1px solid red;
   margin: auto;
 }
 
@@ -42,7 +42,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  
+
   padding: 16px;
 }
 
@@ -63,7 +63,7 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
 
-  transition: background .5s;
+  transition: background 0.5s;
 }
 
 ul li a:hover {
