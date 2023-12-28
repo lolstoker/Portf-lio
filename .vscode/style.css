@@ -28,3 +28,20 @@ body * {
 #profile img {
   width: 112px;
 }
+
+/*Container de Teste para botão de som*/
+#ContainerTeste {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: solid red;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+ion-icon {
+  font-size: 64px;
+}
