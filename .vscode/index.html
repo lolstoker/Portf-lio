@@ -17,29 +17,44 @@
   </head>
   <body>
     <!-- Principal, botões, fotos, links, etc -->
-    <div id="container">
-      <div id="profile">
+    <div class="container">
+      <div class="profile">
         <!-- foto de perfil-->
         <img src="" alt="" />
-        <p>Victor Ruben Litig Rosario</p>
-        <p>Estudante de Engenharia da Computação</p>
-        <p>9º Período</p>
+        <p id="name">Victor Ruben Litig Rosario</p>
+        <p id="occupation">Estudante de Engenharia da Computação</p>
+        <p id="semester">9º Período</p>
       </div>
-      <ul>
-        <li>
-          <a href="#" target="_blank">Sobre Victor</a>
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="#" data-content="sobre">Sobre Victor</a>
         </li>
-        <li>
-          <a href="#" target="_blank">Experiências</a>
+        <li class="menu-item">
+          <a href="#" data-content="experiencias">Experiências</a>
         </li>
-        <li>
-          <a href="#" target="_blank">Conhecimentos</a>
+        <li class="menu-item">
+          <a href="#" data-content="Conhecimentos">Conhecimentos</a>
         </li>
-        <li>
-          <a href="#" target="_blank">ENTER THE MATRIX</a>
+        <li class="menu-item">
+          <a href="#" data-content="matrix">ENTER THE MATRIX</a>
         </li>
       </ul>
-      <div id="social-links">
+
+      <!-- Conteudo dos botões -->
+      <div class="content" id="sobre">
+      </div>
+      <div class="content" id="experiencias">
+      </div>
+      <div class="content" id="conhecimentos">
+      </div>
+      <div class="popup" id="popup">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup()">&times;</span>
+          <p>Em breve C:</p>
+        </div>
+      </div>
+
+      <div class="social-links">
         <a href="https://github.com/lolstoker" target="_blank">
           <ion-icon name="logo-github"></ion-icon>
         </a>        
